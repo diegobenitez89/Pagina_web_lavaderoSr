@@ -10,8 +10,8 @@ form {
     box-sizing: border-box;
     margin-top: 20px;
     border-radius: 7px;
-    background: rgba(0,0,0,0.4);
-    border: solid 1px ;
+    background:black;
+    border: solid 1px white;
 }
 
 #contacto h2{
@@ -37,13 +37,15 @@ textarea {
 }
 
 #boton {
-    background: rgb(19, 18, 18);
-    color: rgb(255, 255, 255);
+    background:black;
+    color:white;
     padding: 20px;
+    border: 1px solid rgb(24, 24, 150);
 }
 
 #boton:hover {
     cursor: pointer;
+    background:rgb(54, 53, 53);
 
 }
   

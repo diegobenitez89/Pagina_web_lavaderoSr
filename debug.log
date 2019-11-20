@@ -1,0 +1,13 @@
+[1106/152340.828:ERROR:process_reader_win.cc(182)] ResumeThread: El parámetro no es correcto. (0x57)
+[1106/152340.830:ERROR:process_reader_win.cc(151)] SuspendThread: Acceso denegado. (0x5)
+[1106/152340.830:ERROR:process_reader_win.cc(151)] SuspendThread: Acceso denegado. (0x5)
+[1106/152340.831:ERROR:process_reader_win.cc(151)] SuspendThread: Acceso denegado. (0x5)
+[1106/152340.831:ERROR:process_reader_win.cc(151)] SuspendThread: Acceso denegado. (0x5)
+[1106/152340.831:ERROR:process_reader_win.cc(151)] SuspendThread: Acceso denegado. (0x5)
+[1106/152340.831:ERROR:process_reader_win.cc(151)] SuspendThread: Acceso denegado. (0x5)
+[1106/152340.831:ERROR:process_reader_win.cc(151)] SuspendThread: Acceso denegado. (0x5)
+[1106/152340.831:ERROR:process_reader_win.cc(151)] SuspendThread: Acceso denegado. (0x5)
+[1106/152340.833:ERROR:process_reader_win.cc(151)] SuspendThread: Acceso denegado. (0x5)
+[1106/152340.833:ERROR:process_reader_win.cc(151)] SuspendThread: Acceso denegado. (0x5)
+[1106/152340.833:ERROR:process_reader_win.cc(151)] SuspendThread: Acceso denegado. (0x5)
+[1106/152340.833:ERROR:exception_snapshot_win.cc(98)] thread ID 8632 not found in process
