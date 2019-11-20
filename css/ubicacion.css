@@ -1,0 +1,60 @@
+.contenedor-ubicacion{
+    width: auto;
+    margin: 100px auto;
+    background: rgb(20, 177, 104);
+    border: solid 1px white;
+    border-radius: 2%;
+    margin-top: 20px;
+
+}
+.contenedor-ubicacion iframe{
+  margin: 10px;
+  width: 95%;
+  border-radius: 2%;
+
+  
+}
+
+.contenedor-ubicacion .txt{
+text-align: center;
+align-items: center;
+
+
+}
+.contenedor-ubicacion h2{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  
+}
+.contenedor-ubicacion .txt p{
+
+color: white;
+padding: 10px 20px;
+font-size: 20px;
+text-align: center;
+
+
+
+}
+
+@media (min-width: 768px) {
+  .contenedor-ubicacion{
+      width: auto;
+
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  .contenedor-ubicacion{
+    width: 40%;
+  
+  }
+
+
+}

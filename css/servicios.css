@@ -1,0 +1,96 @@
+#servicios {
+    width: 100%;
+    padding: 20px;
+
+}
+
+#servicios img {
+    width: 100%;
+}
+
+#servicios h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+#servicios p {
+    text-align: center; 
+    color: rgb(255, 255, 255);
+    font-family: Georgia, serif;
+    letter-spacing: 0;
+    text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
+    opacity: 10;
+        
+}
+
+
+#servicios .contenedor-servicios {
+    padding: 20px;
+    background: url('../img/burbujas.jpg');
+    border-radius: 1%;
+    border: solid 1px rgb(255, 252, 252);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#servicios .contenedor-servicios img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid white;
+    opacity: 2;
+    margin-top: 30px;
+}
+
+#servicios .animado {
+    display: flex;
+    widows: 300px;
+    height: 40px;
+    color: orange;  
+    font-size: 34px;
+    line-height: 40px;
+    position: absolute;
+    margin-top:-10px;
+    overflow: hidden;
+}
+
+#servicios .info {
+    margin-top: 20px;
+    margin: 20px;
+}
+
+#servicios .contenedor-servicios .animado ul {
+    list-style: none;
+    padding-left: 10px;
+    margin: 0;
+    animation: cambiar 6s infinite;
+    
+}
+
+
+@keyframes cambiar{
+
+    0% {margin-top:0;}
+    20% {margin-top:0;}
+
+    25% {margin-top:-40px;}
+    50%{margin-top:-40px;}
+
+    55%{margin-top:-80px;}
+    80%{margin-top:-80px;}
+
+    85%{margin-top:-120px;}
+    95%{margin-top:-120px;}
+
+    100%{margin-top:0;}
+
+}
+

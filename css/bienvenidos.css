@@ -1,0 +1,72 @@
+
+.bienve {
+    display: table;
+    background: rgb(0, 0, 0);
+    margin: auto;
+    border-radius: 1%;
+    margin-top:20px ;
+    opacity: 0.7;
+  }
+    
+.bienve h2{
+    float: left;
+    color:orange;
+    position: relative;
+    font-size: 50px;
+    border: 2px white;
+    text-align: center;
+    }
+
+   
+
+.bienve h2 span{
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: black;
+    border-left: 1px solid black;
+    animation: maquina 5s infinite alternate steps(39);
+    }
+    
+    @keyframes maquina {
+    from {
+    width: 100%;
+    
+      }
+    to {
+    width: 0;
+      }
+    }
+    
+    @media (min-width:350px) {
+      .bienve h2{
+        font-size: 17px;   
+          }
+        }
+
+    @media (min-width:480px) {
+    .bienve h2{
+    font-size: 24px;   
+      }
+    }
+
+    @media (min-width:625px) {
+    .bienve h2{
+      font-size: 30px;
+      }
+    }
+
+    @media (min-width:768px) {
+    .bienve {
+      margin-top:10px ;
+    }
+    .bienve h2{
+    font-size: 40px;   
+      }
+    
+    }
+    @media (min-width:1024px) {
+   .bienve h2{
+    font-size: 50px;   
+      }
+    }
